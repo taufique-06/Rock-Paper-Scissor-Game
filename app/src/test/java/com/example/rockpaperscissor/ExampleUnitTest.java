@@ -1,4 +1,4 @@
-package com.example.rockpaperscissorgame;
+package com.example.rockpaperscissor;
 
 import org.junit.Test;
 

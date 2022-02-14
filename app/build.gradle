@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.rockpaperscissorgame"
+        applicationId "com.example.rockpaperscissor"
         minSdk 21
         targetSdk 31
         versionCode 1
