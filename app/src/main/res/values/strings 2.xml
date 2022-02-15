@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rock Paper Scissor</string>
+    <string name="title">Rock Paper Scissors</string>
+    <string name="playerOne">Player One</string>
+    <string name="playerTwo">Player Two</string>
+    <string name="choose">Choose one of the following</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="button">Restart Game</string>
+    <string name="scoreOne">Player One Score:</string>
+    <string name="scoreTwo">Player Two Score:</string>
+</resources>

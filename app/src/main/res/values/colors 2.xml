@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#3E73A8</color>
+    <color name="blue_first">#6CD3DD</color>
+    <color name="blue_second">#0F3E6C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradient_one">#003973</color>
+    <color name="gradient_two">#E5E5BE</color>
+    <color name="gradient_three">#003973</color>
+</resources>
