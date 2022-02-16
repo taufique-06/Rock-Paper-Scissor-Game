@@ -82,19 +82,23 @@ public class GameActivity extends AppCompatActivity {
         int computerWon = 0;
 
         if (imageButtonOne.isPressed()) {
+            computerWon = computerWon + 1;
+            playerWon = playerWon + 1;
             if (number == 0) {
-                Toast.makeText(GameActivity.this, "Ooops! It is a draw", Toast.LENGTH_LONG).show();
+
+                Toast toast =  Toast.makeText(GameActivity.this, "Ooops! It is a draw", Toast.LENGTH_LONG);
+                toast.show();
             }
 
             if (number == 1) {
-                Toast.makeText(GameActivity.this, "Computer Won! Better luck for next time!", Toast.LENGTH_LONG).show();
-                computerWon++;
-                computerText.setText("Player Two's Total Score: " + computerWon);
+                CharSequence text = "Computer Won! Better luck for next time!";
+                Toast.makeText(GameActivity.this, text, Toast.LENGTH_LONG).show();
+                computerText.setText("Player Two's Total Score: " + count(text));
             }
 
             if (number == 2) {
                 Toast.makeText(GameActivity.this, "Congratulations! You Won", Toast.LENGTH_LONG).show();
-                playerWon++;
+
                 playerText.setText("Player One's Total Score: " + playerWon);
             }
 
@@ -134,6 +138,18 @@ public class GameActivity extends AppCompatActivity {
             }
         }
 
+    }
 
+    public int count(CharSequence text)
+    {
+        int count = 0;
+        if (text == "Computer Won! Better luck for next time!")
+        {
+            count = count + 1;
+        }
+        else {
+            
+        }
+        return count;
     }
 }
