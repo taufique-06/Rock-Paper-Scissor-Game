@@ -8,6 +8,6 @@
     <string name="paper">Paper</string>
     <string name="scissors">Scissors</string>
     <string name="button">Restart Game</string>
-    <string name="scoreOne">Player One Score:</string>
-    <string name="scoreTwo">Player Two Score:</string>
+    <string name="scoreOne">Player One\'s Total Score:</string>
+    <string name="scoreTwo">Player Two\'s Total Score:</string>
 </resources>
