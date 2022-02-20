@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        go to GameActivity.class when clicking on the button
 
-        Button button = (Button) findViewById(R.id.button);
+        Button button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

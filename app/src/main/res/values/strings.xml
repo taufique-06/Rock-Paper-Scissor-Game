@@ -10,4 +10,8 @@
     <string name="button">Restart Game</string>
     <string name="scoreOne">Player One\'s Total Score:</string>
     <string name="scoreTwo">Player Two\'s Total Score:</string>
+    <string name="message">It\'s always hard to beat me. Can you do it?</string>
+    <string name="playButton">Ready to play?</string>
+    <string name="frontTitle">Welcome!</string>
+    <string name="instructions">Playing First Time?</string>
 </resources>
