@@ -2,6 +2,7 @@ package com.example.rockpaperscissor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -20,7 +21,7 @@ public class GameActivity extends AppCompatActivity {
 
     ImageButton imageButtonOne,imageButtonTwo,imageButtonThree;
     ImageView questionMarkImage, questionMarkImageTwo;
-    Button reset;
+    Button reset,helpButton;
     TextView playerText, computerText;
     int playerWon = 0;
     int computerWon = 0;
@@ -73,6 +74,16 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 resetScore();
+            }
+        });
+
+//        When clicking need help button
+
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GameActivity.this, UserGuideness.class);
+                startActivity(intent);
             }
         });
     }

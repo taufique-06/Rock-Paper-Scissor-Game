@@ -16,11 +16,21 @@ public class MainActivity extends AppCompatActivity {
 
 //        go to GameActivity.class when clicking on the button
 
-        Button button = (Button) findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button playButton = (Button) findViewById(R.id.button2);
+        Button helpButton = (Button) findViewById(R.id.button3);
+
+        playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, GameActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, UserGuideness.class);
                 startActivity(intent);
             }
         });
