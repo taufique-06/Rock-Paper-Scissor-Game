@@ -14,4 +14,9 @@
     <string name="playButton">Ready to play?</string>
     <string name="frontTitle">Welcome!</string>
     <string name="instructions">Playing First Time?</string>
+    <string name="onBoardingScreenTitle">It is time to learn to be the best!</string>
+    <string name="onBoardingScreenOne">Let\'s Get Started</string>
+    <string name="bestScoreTitle">Best Score</string>
+    <string name="messageForComputer">Computer Won! Better luck for next time!</string>
+    <string name="messageForPlayer">Congratulations! You Won!</string>
 </resources>

@@ -10,7 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.Dark">
         <activity
-            android:name=".UserGuideness"
+            android:name=".bestScore"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingScreen2"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/slide" />
+
+        <activity
+            android:name=".OnBoardingScreen1"
             android:exported="false" />
         <activity
             android:name=".GameActivity"
